@@ -54,7 +54,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: capsule-service
-  namepace: suwetha-ns
+  namespace: suwetha-ns
 spec:
   selector:
     app: capsule-app
