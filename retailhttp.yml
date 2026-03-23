@@ -1,7 +1,7 @@
 apiVersion: gateway.networking.k8s.io/v1
 kind: HttpRoute
 metadata:
-  name: reatil-route
+  name: retail-route
   namespace: suwetha-ns
 spec:
   parentRefs:
